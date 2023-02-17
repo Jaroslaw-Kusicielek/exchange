@@ -1,0 +1,32 @@
+.form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid teal;
+}
+
+.form__button {
+    width: 100%;
+    background-color: hsl(180, 100%, 25%);
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.form__button:hover {
+    background-color: hsl(180, 100%, 35%);
+}
+
+.form__button:active {
+    background-color: hsl(180, 100%, 45%);
+}
+
+.form__legend {
+    background-color: teal;
+    color: white;
+    padding: 7px;
+    border: none;
+}
+
+.form__fieldset {
+    box-shadow: 2px 2px 8px;
+}
